@@ -24,7 +24,7 @@ Os usuários deverão ter a capacidade de:
 
 ### Links
 
-- Site URL: [Easybank landing page]()
+- Site URL: [Easybank landing page](https://easybank-landing-page-rust.vercel.app/)
 
 ## Meu processo
 
