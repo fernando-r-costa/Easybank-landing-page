@@ -30,7 +30,7 @@ Os usuários deverão ter a capacidade de:
 
 - [x] Header
 - [x] Header-states
-- [ ] Seção-introdução
+- [x] Seção-introdução
 - [ ] Seção-introdução-states
 - [ ] Seção-sobre
 - [ ] Seção-blog
