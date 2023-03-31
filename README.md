@@ -29,7 +29,7 @@ Os usuários deverão ter a capacidade de:
 ## Meu processo
 
 - [x] Header
-- [ ] Header-states
+- [x] Header-states
 - [ ] Seção-introdução
 - [ ] Seção-introdução-states
 - [ ] Seção-sobre
