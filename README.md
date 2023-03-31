@@ -28,10 +28,19 @@ Os usuários deverão ter a capacidade de:
 
 ## Meu processo
 
-- [ ] Desktop-design
+- [ ] Header
+- [ ] Header-states
+- [ ] Seção-introdução
+- [ ] Seção-introdução-states
+- [ ] Seção-sobre
+- [ ] Seção-blog
+- [ ] Seção-blog-states
+- [ ] Footer
+- [ ] Footer-states
 - [ ] Mobile-design
-- [ ] Interação
 
 ## Autor
+
+![](./images/FRC.gif)
 
 - LinkedIn - [Fernando R Costa](https://www.linkedin.com/in/fernando-r-costa/)
