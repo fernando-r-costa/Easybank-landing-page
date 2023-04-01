@@ -104,8 +104,7 @@ header {
     margin: 40px 40px 0 130px;
     color: var(--grayish-blue);
     letter-spacing: 1.1px;
-
-    
+    line-height: 25px;
 }
 
 .botao-convite-intro {
@@ -122,10 +121,100 @@ header {
     font-weight: 600;
 }
 
+.botao-convite-intro:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
 .imagem-introducao {
     grid-area: 1 / 2 / 4 / 3;
     position: relative;
     top: -110px;
     left: 120px;
     width: 110%;
+}
+
+.secao-sobre {
+    background-color: var(--light-grayish-blue);
+}
+
+.sobre {
+    display: grid;
+    grid-template-columns: repeat(4, 285px);
+    grid-template-rows: 190px 110px 110px 50px 190px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0 0 0 130px;
+}
+
+.sobre h1 {
+    grid-area: 1 / 1 / 2 / 5;
+    font-size: 35px;
+    color: var(--dark-blue);
+    margin: 140px 0 0 0;
+}
+
+.sobre p {
+    grid-area: 2 / 1 / 3 / 5;
+    font-size: 16px;
+    color: var(--grayish-blue);
+    margin: 0 30px 0 0;
+    line-height: 22px;
+}
+
+.sobre h2 {
+    font-size: 20px;
+    color: var(--dark-blue);
+}
+
+.imagem-sobre {
+    width: 25%
+}
+
+.div3 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.div4 {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+.div5 {
+    grid-area: 5 / 1 / 6 / 2;
+}
+
+.div6 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.div7 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.div8 {
+    grid-area: 5 / 2 / 6 / 3;
+}
+
+.div9 {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.div10 {
+    grid-area: 4 / 3 / 5 / 4;
+}
+
+.div11 {
+    grid-area: 5 / 3 / 6 / 4;
+}
+
+.div12 {
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+.div13 {
+    grid-area: 4 / 4 / 5 / 5;
+}
+
+.div14 {
+    grid-area: 5 / 4 / 6 / 5;
 }
