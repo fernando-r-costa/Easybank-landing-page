@@ -33,8 +33,8 @@ Os usuários deverão ter a capacidade de:
 - [x] Seção-introdução
 - [x] Seção-introdução-states
 - [x] Seção-sobre
-- [ ] Seção-blog
-- [ ] Seção-blog-states
+- [x] Seção-blog
+- [x] Seção-blog-states
 - [ ] Footer
 - [ ] Footer-states
 - [ ] Mobile-design

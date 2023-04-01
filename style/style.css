@@ -11,6 +11,7 @@
 body {
     font-family: 'Public Sans', sans-serif;
     max-width: 100vw;
+    background-color: var(--very-light-gray);
 }
 
 .attribution {
@@ -171,50 +172,171 @@ header {
     width: 25%
 }
 
-.div3 {
+.img-online {
     grid-area: 3 / 1 / 4 / 2;
 }
 
-.div4 {
+.tit-online {
     grid-area: 4 / 1 / 5 / 2;
 }
 
-.div5 {
+.par-online {
     grid-area: 5 / 1 / 6 / 2;
 }
 
-.div6 {
+.img-orcamento {
     grid-area: 3 / 2 / 4 / 3;
 }
 
-.div7 {
+.tit-orcamento {
     grid-area: 4 / 2 / 5 / 3;
 }
 
-.div8 {
+.par-orcamento {
     grid-area: 5 / 2 / 6 / 3;
 }
 
-.div9 {
+.img-integracao {
     grid-area: 3 / 3 / 4 / 4;
 }
 
-.div10 {
+.tit-integracao {
     grid-area: 4 / 3 / 5 / 4;
 }
 
-.div11 {
+.par-integracao {
     grid-area: 5 / 3 / 6 / 4;
 }
 
-.div12 {
+.img-api {
     grid-area: 3 / 4 / 4 / 5;
 }
 
-.div13 {
+.tit-api {
     grid-area: 4 / 4 / 5 / 5;
 }
 
-.div14 {
+.par-api {
     grid-area: 5 / 4 / 6 / 5;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: 180px 220px 40px 100px 150px;
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+    margin: 0 0 0 130px;
+}
+
+.blog img {
+    width: 270px;
+    height: 180px;
+}
+
+.blog h2 {
+    font-size: 20px;
+    color: var(--dark-blue);
+    line-height: 22px;
+    margin: 0 20px;
+}
+
+.blog h2:hover {
+    color: var(--lime-green);
+    cursor: pointer;
+}
+
+.blog p {
+    font-size: 16px;
+    color: var(--grayish-blue);
+    margin: 0 30px 0 0;
+    line-height: 22px;
+    margin: 0 20px;
+}
+
+.tit-blog {
+    grid-area: 1 / 1 / 2 / 5;
+    font-size: 35px;
+    color: var(--dark-blue);
+    margin: 100px 0 0 0;
+}
+
+.img-money {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: var(--white);
+}
+
+.por-money {
+    grid-area: 3 / 1 / 4 / 2;
+    background-color: var(--white);
+}
+
+.tit-money {
+    grid-area: 4 / 1 / 5 / 2;
+    background-color: var(--white);
+}
+
+.par-money {
+    grid-area: 5 / 1 / 6 / 2;
+    background-color: var(--white);
+}
+
+.img-restaurante {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: var(--white);
+}
+
+.por-restaurante {
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: var(--white);
+}
+
+.tit-restaurante {
+    grid-area: 4 / 2 / 5 / 3;
+    background-color: var(--white);
+}
+
+.par-restaurante {
+    grid-area: 5 / 2 / 6 / 3;
+    background-color: var(--white);
+}
+
+.img-aviao {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: var(--white);
+}
+
+.por-aviao {
+    grid-area: 3 / 3 / 4 / 4;
+    background-color: var(--white);
+}
+
+.tit-aviao {
+    grid-area: 4 / 3 / 5 / 4;
+    background-color: var(--white);
+}
+
+.par-aviao {
+    grid-area: 5 / 3 / 6 / 4;
+    background-color: var(--white);
+}
+
+.img-confeti {
+    grid-area: 2 / 4 / 3 / 5;
+    background-color: var(--white);
+}
+
+.por-confeti {
+    grid-area: 3 / 4 / 4 / 5;
+    background-color: var(--white);
+}
+
+.tit-confeti {
+    grid-area: 4 / 4 / 5 / 5;
+    background-color: var(--white);
+}
+
+.par-confeti {
+    grid-area: 5 / 4 / 6 / 5;
+    background-color: var(--white);
 }
