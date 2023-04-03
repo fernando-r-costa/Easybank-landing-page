@@ -15,8 +15,10 @@ body {
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
+    font-size: 14px;
+    color: var(--white);
+    text-align: right;
+    margin-right: 10px;
 }
 
 header {
@@ -59,9 +61,12 @@ header {
     border-image-slice: 1;
 }
 
-.botao-convite {
+.botao-convite-header {
     grid-area: 1 / 3 / 2 / 4;
-    margin: auto;
+    margin: 0 0 0 180px;
+}
+
+.botao-convite {
     width: 170px;
     height: 50px;
     padding: 16px;
@@ -110,21 +115,7 @@ header {
 
 .botao-convite-intro {
     grid-area: 3 / 1 / 4 / 2;
-    margin: 40px 0 0 130px;
-    width: 170px;
-    height: 50px;
-    padding: 16px;
-    border-radius: 25px;
-    color: var(--white);
-    background-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
-    border: none;
-    letter-spacing: 1.5px;
-    font-weight: 600;
-}
-
-.botao-convite-intro:hover {
-    opacity: 60%;
-    cursor: pointer;
+    margin: 0 0 0 130px;
 }
 
 .imagem-introducao {
@@ -361,64 +352,67 @@ footer {
     font-size: 16px;
 }
 
+.secao-contato p:hover {
+    cursor: pointer;
+    color: var(--lime-green);
+}
+
 .logo-contato {
     grid-area: 1 / 1 / 2 / 2;
     margin: 40px 0 0 0;
 }
 
-.logo-contato img {
-    -webkit-text-color: var(--lime-green);
-}
-
-.icone-redes {
+.icones-redes {
     grid-area: 3 / 1 / 4 / 2;
     margin: 20px 0 0 0;
 }
 
-.icone-redes img {
+.icones-redes img {
     margin: 0 15px 0 0;
     width: 8%;
 }
 
-.icone-redes img:hover {
+.icones-redes img:hover {
     cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(65%) sepia(60%) saturate(574%) hue-rotate(82deg) brightness(95%) contrast(87%);
 }
 
-.div3 {
+.contato-sobre {
     grid-area: 1 / 2 / 2 / 3;
     margin: 40px 0 0 0;
 }
 
-.div4 {
+.contato-contato {
     grid-area: 2 / 2 / 3 / 3;
     margin: 30px 0 0 0;
 }
 
-.div5 {
+.contato-blog {
     grid-area: 3 / 2 / 4 / 3;
     margin: 40px 0 0 0;
 }
 
-.div6 {
+.contato-carreira {
     grid-area: 1 / 3 / 2 / 4;
     margin: 40px 0 0 0;
 }
 
-.div7 {
+.contato-suporte {
     grid-area: 2 / 3 / 3 / 4;
     margin: 30px 0 0 0;
 }
 
-.div8 {
+.contato-politica {
     grid-area: 3 / 3 / 4 / 4;
     margin: 40px 0 0 0;
 }
 
-.div9 {
+.botao-convite-footer {
     grid-area: 1 / 4 / 2 / 5;
+    margin: 40px 0 0 300px;
 }
 
-.div10 {
+.copyright {
     grid-area: 3 / 4 / 4 / 5;
-    margin: 40px 0 0 150px;
+    margin: 20px 0 0 150px;
 }
