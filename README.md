@@ -20,7 +20,11 @@ Os usuários deverão ter a capacidade de:
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+![Desktop Design](./screenshots/screenshot-1680634788155.jpeg)
+
+![Mobile Design](./screenshots/screenshot-1680634769994.jpeg)
+
+![Modal Mobile](./screenshots/screenshot-1680634777799.jpeg)
 
 ### Links
 
@@ -37,7 +41,7 @@ Os usuários deverão ter a capacidade de:
 - [x] Seção-blog-states
 - [x] Footer
 - [x] Footer-states
-- [ ] Mobile-design
+- [x] Mobile-design
 
 ## Autor
 

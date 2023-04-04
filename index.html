@@ -15,6 +15,7 @@
 
   <link rel="stylesheet" href="./style/reset.css">
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/style-mobile.css">
 
   <title>Easybank</title>
 
@@ -31,7 +32,18 @@
       <li>Carreira</li>
     </nav>
     <div class="botao-convite-header"><button class="botao-convite">Solicitar convite</button></div>
+    <div class="hamburguer"><img src="./images/icon-hamburger.svg"></div>
 
+    <div class="modal-hamburguer" id="myModal">
+      <img src="./images/icon-close.svg" id="close-cursor">
+      <nav class="nav-hamburguer">
+        <li>Home</li>
+        <li>Sobre</li>
+        <li>Contato</li>
+        <li>Blog</li>
+        <li>Carreira</li>
+      </nav>
+    </div>
   </header>
 
   <section class="secao-introducao">
@@ -39,7 +51,6 @@
     <p>Leve sua vida financeira online. Sua conta Easybank será um ambiente único para gastar, economizar, orçamentos,
       investir e muito mais.</p>
     <div class="botao-convite-intro"><button class="botao-convite">Solicitar convite</button></div>
-
     <img class="imagem-introducao" src="./images/image-mockups.png" alt="4 smartphones">
   </section>
 
@@ -103,7 +114,7 @@
       <div class="por-restaurante">
         <p>Por Wilson Hutton</p>
       </div>
-      <div class="tit--restaurante">
+      <div class="tit-restaurante">
         <h2>Mime-se sem se preocupar com dinheiro</h2>
       </div>
       <div class="par-restaurante">
@@ -169,10 +180,10 @@
       </div>
     </div>
     <div class="attribution">Coded by <a href="https://www.linkedin.com/in/fernando-r-costa/"><img
-          src="./images/FRC.gif" style="width: 2%;"></a>
+          src="./images/FRC.gif"></a>
   </footer>
 
-  </div>
+  <script src="./script/script.js"></script>
 </body>
 
 </html>
